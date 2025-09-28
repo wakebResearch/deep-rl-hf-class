@@ -1,0 +1,19 @@
+# build source
+**/*.egg-info/
+
+# pycache
+**/__pycache__/
+
+# slurmoutput
+*.out
+
+# logs
+*.log
+
+# vim swap
+*.swp
+
+
+frontend/temp/
+.aider*
+.env
