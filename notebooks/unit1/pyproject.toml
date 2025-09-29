@@ -7,7 +7,8 @@ requires-python = ">=3.13"
 dependencies = [
 	"stable-baselines3>=2.7.0",
 	"swig>=4.3.1.post0",
-	"gymnasium[box2d]>=1.2.1",
+	"gymnasium[box2d,other]>=1.2.1",
 	"huggingface_sb3>=3.0",
 	"pyvirtualdisplay>=3.0",
+	"python-dotenv>=1.1.1",
 ]
