@@ -1,0 +1,15 @@
+[project]
+name = "unit3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ale-py>=0.11.2",
+    "gymnasium[atari]>=1.2.1",
+    "opencv-python>=4.12.0.88",
+    "pyvirtualdisplay>=3.0",
+    "rl-zoo3>=2.7.0",
+    "scipy>=1.16.3",
+    "seaborn>=0.13.2",
+]

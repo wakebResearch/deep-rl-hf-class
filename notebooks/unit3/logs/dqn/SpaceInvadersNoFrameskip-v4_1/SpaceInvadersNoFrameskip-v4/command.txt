@@ -1,0 +1,1 @@
+/home/abdullah/Documents/wakeb/deep-rl-hf-class/notebooks/unit3/.venv/bin/python3 /home/abdullah/Documents/wakeb/deep-rl-hf-class/notebooks/unit3/.venv/bin/rl_zoo3 train --algo dqn --env SpaceInvadersNoFrameskip-v4 -f logs/ -c dqn.yml
