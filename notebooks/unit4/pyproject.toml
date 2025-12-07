@@ -1,0 +1,20 @@
+[project]
+name = "unit4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gym-games",
+    "huggingface-hub>=1.1.7",
+    "imageio>=2.37.2",
+    "imageio-ffmpeg>=0.6.0",
+    "matplotlib>=3.10.7",
+    "numpy<2.0",
+    "ple",
+    "torch>=2.9.1",
+]
+
+[tool.uv.sources]
+ple = { git = "https://github.com/ntasfi/PyGame-Learning-Environment.git" }
+gym-games = { git = "https://github.com/simoninithomas/gym-games" }
